@@ -20,15 +20,15 @@
 							<ul>
 								<li class="current"><a href="project1.html">Memory</a></li>
 								<li><a href="project2.html">Night Racer</a></li>
-								<li><a href="project3.html">Project3</a></li>
-								<li><a href="project4.html">Project4</a></li>
-								<li><a href="project5.html">Project5</a></li>
+								<li><a href="project3.html">Discord Bot</a></li>
+								<!-- <li><a href="project4.html">Project4</a></li>
+								<li><a href="project5.html">Project5</a></li> -->
 							</ul>
 						</li>
-						<li><a href="left-sidebar.html">Left Sidebar</a></li>
+						<!-- <li><a href="left-sidebar.html">Left Sidebar</a></li>
 						<li><a href="right-sidebar.html">Right Sidebar</a></li>
-						<li><a href="two-sidebar.html">Two Sidebar</a></li>
-						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						<li><a href="two-sidebar.html">Two Sidebar</a></li> -->
+						<li><a href="AboutMe.html">About Me</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -44,9 +44,7 @@
 
 										<section>
 											<h3>Memory game</h3>
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-											Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis et nisi etiam.</p>
+											<p>This game was made as a solo project in C# Unity</p>
 											<footer>
 												<a href="https://github.com/MaxWesterveld/Memory" class="button">Github link</a>
 											</footer>
@@ -57,9 +55,9 @@
 											<ul class="links">
 												<li><a href="project1.html">Memory</a></li>
 												<li><a href="project2.html">Night Racer</a></li>
-												<li><a href="project3.html">Project3</a></li>
-												<li><a href="project4.html">Project4</a></li>
-												<li><a href="project5.html">Project5</a></li>
+												<li><a href="project3.html">Discord Bot</a></li>
+												<!-- <li><a href="project4.html">Project4</a></li>
+												<li><a href="project5.html">Project5</a></li> -->
 											</ul>
 										</section>
 
@@ -71,32 +69,30 @@
 									<!-- Content -->
 										<article>
 											<header>
-												<h2>Project 1</h2>
-												<p>First project.</p>
+												<h2>Memory Game</h2>
+												<p>A game about cards</p>
 											</header>
 
 											<!-- <span class="image featured"><img src="images/banner.jpg" alt="" /></span> -->
 											<video width="640" height="480" controls>
 												<source src="videos/MemoryGameplay.mp4" type="video/mp4">
-											  Your browser does not support the video tag.
 											  </video>
 
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-											Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-											consequat etiam lorem ipsum dolor sit amet nullam.</p>
+											<p>Memory is a game where you have a bunch of cards with pictures on them. Each picture is given 2 cards and the goal of the game is to find the cards with the same pictures</p>
 
-											<h3>Parts of the code I worked on</h3>
-											<button type="button" class="collapsible">Open Collapsible</button>
+											<h3>Code parts</h3>
+											<button type="button" class="collapsible">View code parts</button>
 											<div class="content">
-												<p>Fill in text.</p>
+												<br>
+												<p>
+													In the ShuffleCards() function the cards from the stackOfCards are being shuffled in the while loop and generated at random positions as long as there is not already a card at that position. 
+													If the position is empty it removes the top card from the stack using the Pop() function and placing it in the placedCards array.
+													<br>
+													In the PlaceCardsOnField() function the cards that are being put in the placedCards array will be given a card object and script. 
+													Then it calculates the position where the card should be placed and set it as the new position for the card object.
+												</p>
+												
 												<span class="image featured"><img src="images/Memory/MemorySS1.png" alt="" /></span>
-
-												<p>Fill in text.</p>
-												<span class="image featured"><img src="images/banner.jpg" alt="" /></span>
-
-												<p>Fill in text.</p>
-												<span class="image featured"><img src="images/banner.jpg" alt="" /></span>
 											</div>
 										</article>
 								</div>
