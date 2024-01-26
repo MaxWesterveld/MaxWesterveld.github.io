@@ -2673,7 +2673,8 @@ input, select, textarea {
 		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
-		height: 28em;
+		/* height: 28em; */
+		height: 133px;
 		text-align: center;
 		position: relative;
 	}
@@ -3382,7 +3383,7 @@ input, select, textarea {
   }
 
 
-/* Add some basic styling to the text box */
+/* Text Box */
 .info-box {
 	width: 500px; /* Adjust the width as needed */
 	height: 670px;
@@ -3404,5 +3405,50 @@ input, select, textarea {
 	border-radius: 10px; /* Optional: Add rounded corners to the image */
 }
 
-
+div.scroll-container {
+	background-color: #333;
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px;
+  }
   
+  div.scroll-container img {
+	padding: 10px;
+  }
+
+
+/*second info box*/
+.wrapper {
+	background-color: #f2f2f2;
+	padding: 50px 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#content {
+	display: flex;
+	align-items: center;
+}
+
+#content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.info-box {
+	margin-left: 20px;
+}
+
+.second-info-box {
+	width: 500px; /* Adjust the width as needed */
+	height: 670px;
+	padding: 20px;
+	background-color: #f0f0f0; /* Light gray background color */
+	border-radius: 10px;
+	margin-left: 20px; /* Adjust the margin to create space between the image and the text box */
+}
